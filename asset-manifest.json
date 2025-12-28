@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cafe_react/static/css/main.67e864fc.css",
-    "main.js": "/cafe_react/static/js/main.ec8b8123.js",
-    "static/js/453.177e394d.chunk.js": "/cafe_react/static/js/453.177e394d.chunk.js",
-    "static/media/coffee.jpg": "/cafe_react/static/media/coffee.5e616b0758d7477927f7.jpg",
-    "index.html": "/cafe_react/index.html",
-    "main.67e864fc.css.map": "/cafe_react/static/css/main.67e864fc.css.map",
-    "main.ec8b8123.js.map": "/cafe_react/static/js/main.ec8b8123.js.map",
-    "453.177e394d.chunk.js.map": "/cafe_react/static/js/453.177e394d.chunk.js.map"
+    "main.css": "/cafe-react/static/css/main.67e864fc.css",
+    "main.js": "/cafe-react/static/js/main.964cd9e0.js",
+    "static/js/453.177e394d.chunk.js": "/cafe-react/static/js/453.177e394d.chunk.js",
+    "static/media/coffee.jpg": "/cafe-react/static/media/coffee.5e616b0758d7477927f7.jpg",
+    "index.html": "/cafe-react/index.html",
+    "main.67e864fc.css.map": "/cafe-react/static/css/main.67e864fc.css.map",
+    "main.964cd9e0.js.map": "/cafe-react/static/js/main.964cd9e0.js.map",
+    "453.177e394d.chunk.js.map": "/cafe-react/static/js/453.177e394d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67e864fc.css",
-    "static/js/main.ec8b8123.js"
+    "static/js/main.964cd9e0.js"
   ]
 }
