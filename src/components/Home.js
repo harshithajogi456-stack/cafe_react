@@ -1,10 +1,20 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom"; // Import Link
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../assets/style.css";
 
 const Home = () => {
+  const [apiData, setApiData] = useState(null);
+
   useEffect(() => {
     alert("Welcome to Manipal Mug ☕!");
+
+    fetch("/api/data")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("Backend data:", data);
+        setApiData(data);
+      })
+      .catch((err) => console.error("Fetch error:", err));
   }, []);
 
   return (
@@ -30,6 +40,10 @@ const Home = () => {
           Serving quality coffee and handcrafted refreshments in a space
           designed for comfort and connection.
         </p>
+
+        {apiData && (
+          <p><strong>Backend Message:</strong> {apiData.message}</p>
+        )}
       </section>
 
       <footer>
